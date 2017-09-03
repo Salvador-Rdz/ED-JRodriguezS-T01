@@ -71,6 +71,7 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <LinkIncremental>true</LinkIncremental>
+    <IncludePath>C:\Users\Salvador\Documents\visual studio 2015\Projects\ED-JRodriguezS-T01\ED-JRodriguezS-T01;$(IncludePath)</IncludePath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <LinkIncremental>true</LinkIncremental>
@@ -145,11 +146,19 @@
     <Text Include="ReadMe.txt" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="BinClass.h" />
+    <ClInclude Include="FetchClass.h" />
+    <ClInclude Include="SecClass.h" />
+    <ClInclude Include="SortClass.h" />
     <ClInclude Include="stdafx.h" />
     <ClInclude Include="targetver.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="BinClass.cpp" />
     <ClCompile Include="ED-JRodriguezS-T01.cpp" />
+    <ClCompile Include="FetchClass.cpp" />
+    <ClCompile Include="SecClass.cpp" />
+    <ClCompile Include="SortClass.cpp" />
     <ClCompile Include="stdafx.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
